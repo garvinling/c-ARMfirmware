@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "main.o" "lcd.o" "serial.o" 
+--strict --scatter "OBDII.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\OBDII.map" -o OBDII.axf

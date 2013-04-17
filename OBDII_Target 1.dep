@@ -1,0 +1,16 @@
+Dependencies for Project 'OBDII', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4E9D2152)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x516E1C56)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x50876DDE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50FA4250)
+I (Serial.h)(0x508E15BE)
+I (C:\Keil\ARM\RV31\INC\Math.h)(0x4D020B3C)
+I (lcd.h)(0x4B30849C)
+F (.\lcd.c)(0x4B3088E4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "lcd.o" --omf_browse "lcd.crf" --depend "lcd.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.H)(0x50876DDE)
+I (lcd.h)(0x4B30849C)
+F (.\lcd.h)(0x4B30849C)()
+F (.\Serial.c)(0x508E2C68)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "serial.o" --omf_browse "serial.crf" --depend "serial.d")
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x50876DDE)
+I (Serial.h)(0x508E15BE)
+F (.\Serial.h)(0x508E15BE)()
